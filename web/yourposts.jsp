@@ -51,7 +51,8 @@
                 <div class="bbb_deals_title"><%= p.getName() %></div>
                 <div class="bbb_deals_slider_container">
                     <div class=" bbb_deals_item">
-                        <div class="bbb_deals_image"><img style="object-fit:contain;max-height: 240px;" src="Products_Image/<%= p.getImage() %>" alt="no image found"></div>
+                        <div class="bbb_deals_image"><img style="object-fit:contain;max-height: 240px;" src="Products_Image/<%=p.getImage() %>" alt="no image found"></div>
+                        
                         <div class="bbb_deals_content">
                             <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
                                 <div class="bbb_deals_item_name"><%= p.getBrand() %></div>

@@ -99,7 +99,7 @@
           <span id="pinerror" class="text-danger font-weight-bold"></span>
         </div>
         <!-- submit form -->
-        <input type="submit" class="btn btn-primary" value="Login">
+        <input type="submit" class="btn btn-primary" value="Signup">
     
       </form>
       

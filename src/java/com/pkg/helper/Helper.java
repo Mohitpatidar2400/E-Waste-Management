@@ -31,7 +31,7 @@ public class Helper {
 //        }
 //        return flag;
 //    }
-    public static String ImageFilePath="D:\\ewasteNew\\web\\Products_Image\\";
+    public static String ImageFilePath="C:\\Users\\Lenovo\\OneDrive\\Desktop\\e-wasteManagement-master\\web\\Products_Image\\";
     public static boolean saveImage(InputStream is,String path){
         boolean flag=false;
         try {

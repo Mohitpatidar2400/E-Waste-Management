@@ -29,8 +29,10 @@ public class afterSignup extends HttpServlet {
         Mail mail=new Mail();
         //generating otp
       String genOTP=mail.getOtp();
+      System.out.println("i have OTP"+genOTP);
+              
         //sending mail to verify email
-      mail.sendOTP(email, genOTP);
+       mail.sendOTP(email, genOTP);
       
    HttpSession session=request.getSession();
       session.setAttribute("email", email);
